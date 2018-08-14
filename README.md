@@ -1,9 +1,9 @@
 # Shopping-Basket coding challenge
 
-This is my solution to the coding challenge I got while applying for a job, written in ES6.
+This is my solution to the coding challenge I got while applying for a job written in ES6.
 My goal was to make the discount functionality as extendable as possible without violating the YAGNI principle.
 There are still plenty of potential problems when combining different discounts. Solutions to this would depend on the actual business logic of a real life implementation and exceed the boundaries of this challenge by far.
-I keep free items, added as a discount, with the regular added item in the same basket. Those items should be marked as special or added to a separate basket, to avoid unintentional behaviour later on.
+I keep free items, added as a discount, with the regular added item in the same basket. Those items should be marked as special or added to a separate basket, to avoid unintended behaviour later on.
 Also there is no way to remove items or discounts from a basket.
 
 To run the project please use npm
@@ -14,7 +14,7 @@ npm start
 The webserver will be available through http://localhost:8008/
 Port 8008 is chosen to avoid common collisions with software like Skype. If there is still a port collision, please edit the port in webpack.config.js before running 'npm start'.
 
-Later on I also added unit tests to cover nearly 100% of the code. I tested the code before, but only via integration tests. While this is a very small project I still discovered another, previously unnoticed bug using unit tests. The bug could have led to doubled discounts, which in a real world scenario would cause financial loss. Just another proof that unit tests are not only almost always a good idea, but mandatory in many cases!
+Later on I also added unit tests to cover nearly 100% of the code. I tested the code before, but only via integration tests. While this is a very small project I still discovered another, previously unnoticed, bug using unit tests. The bug could have led to doubled discounts, which in a real world scenario would cause financial loss. Just another proof that unit tests are not only almost always a good idea, but mandatory in many cases!
 
 Tests can be executed by running
 ```
