@@ -14,6 +14,13 @@ npm start
 The webserver will be available through http://localhost:8008/
 Port 8008 is chosen to avoid common collisions with software like Skype. If there is still a port collision, please edit the port in webpack.config.js before running 'npm start'.
 
+Later on I also added tests to cover nearly 100% of the code. Even though I tested the code before, but only via acceptence tests. While this is a very small project I still discovered another, previously unnoticed bug using unit tests. The bug could have led to doubled discounts, which in a real world scenario would cause financial loss. Just another proof that unit tests are not only almost always a good idea, but mandatory in many cases!
+
+Tests can be executed by running
+```
+npm test
+```
+Coverage files are provided in several formats as well.
 
 ## Original text
 
