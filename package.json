@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-plugin-rewire": "^1.1.0",
     "babel-preset-es2015": "^6.24.1",
     "jest": "^23.5.0",
     "webpack": "^4.16.5",
