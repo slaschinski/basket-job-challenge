@@ -114,6 +114,27 @@ class Basket {
             return arr.indexOf(elem) == pos;
         });
     }
+
+    /**
+     * Getter for content
+     */
+    getContent() {
+        return this.content;
+    }
+
+    /**
+     * Getter for combinedSaleDeals
+     */
+    getCombinedSaleDeals() {
+        return this.combinedSaleDeals;
+    }
+
+    /**
+     * Clears the globalSaleDeals variable
+     */
+    static clearGlobalSaleDeals() {
+        globalSaleDeals.length = 0;
+    }
 }
 
 export default Basket;
