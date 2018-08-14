@@ -109,7 +109,7 @@ class Basket {
     createCombinedDeals() {
         this.combinedSaleDeals = [...this.saleDeals, ...globalSaleDeals];
         // filter duplicates
-        this.combinedSaleDeals.filter((elem, pos, arr) => {
+        this.combinedSaleDeals = this.combinedSaleDeals.filter((elem, pos, arr) => {
             // if it's not the first found element, it must be a duplicate
             return arr.indexOf(elem) == pos;
         });
