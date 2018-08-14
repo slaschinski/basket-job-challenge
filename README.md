@@ -1,6 +1,6 @@
 # Shopping-Basket coding challenge
 
-This is my solution to the coding challenge I got while applying for a job. It's written in ES6.
+This is my solution to the coding challenge I received while applying for a job. It's written in ES6.
 My goal was to make the discount functionality as extendable as possible without violating the YAGNI principle.
 There are still plenty of potential problems when combining different discounts. Solutions to this would depend on the actual business logic of a real life implementation and exceed the boundaries of this challenge by far.
 I keep free items, added as a discount, with the regular added item in the same basket. Those items should be marked as special or added to a separate basket, to avoid unintended behaviour later on.
